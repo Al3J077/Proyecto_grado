@@ -1,6 +1,7 @@
 // server/index.js
 const express = require('express');
 const cors = require('cors');
+const supabase = require('./supabase');
 const app = express();
 const PORT = 3000;
 
